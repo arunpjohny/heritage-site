@@ -1,5 +1,5 @@
 body {
-	background-color: c4dd1c;
+	background-color: #F9F6D3;
 }
 
 .zyb-scroll-menu {
@@ -22,6 +22,35 @@ body {
 }
 
 .zyb-page-header {
+	margin-bottom: 5px;
+}
+
+.zyb-page-header .logo {
+	background: transparent url(images/logo.gif) no-repeat center;
+	height: 48px;
+	line-height: 48px;
+	padding-top: 35px;
+	width: 139px;
+}
+
+.contact-info h6 {
+	margin: 2px;
+}
+
+.social-connect [class^="connect-"], .social-connect [class*=" connect-"] {
+  background-image: none;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  vertical-align: text-top;
+  width: 45px;
+}
+.social-connect h6{
+	padding-top: 10px;
+}
+.social-connect .connect-facebook {
+  background-image: url("images/facebook.jpg");
 }
 
 .zyb-bordered {
