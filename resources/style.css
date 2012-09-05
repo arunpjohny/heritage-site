@@ -1,0 +1,47 @@
+body {
+	background-color: c4dd1c;
+}
+
+.zyb-scroll-menu {
+	position: fixed;
+}
+
+.zyb-scroll-menu .zyb-holder{
+	height: 5px;
+	background-color: black;
+}
+
+.zyb-scroll-menu .navbar {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.zyb-scroll-menu .navbar-inner{
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.zyb-page-header {
+}
+
+.zyb-bordered {
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+.zyb-panel {
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.zyb-panel:first-child {
+	margin-top: 0;
+}
+
+.zyb-panel.type2 {
+	background-color: lightyellow;
+}
+
+.zyb-panel section {
+	margin-top: 5px;
+}
